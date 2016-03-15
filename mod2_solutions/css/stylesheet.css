@@ -18,33 +18,24 @@ h1 {
   background-color: #d6d6d6;
 }
 
-#title1{
+div > div {
   border: 1px solid black;
   float: right;
-  background-color: #e5acac;
   padding: 4px 20px 5px 20px;
 }
 
-#title2 {
-  border: 1px solid black;
-  float: right;
-  background-color: #cc4545;
-  color: white;
-  padding: 4px 20px 5px 20px;
-}
+#title1 {background-color: #e5acac;}
 
-#title3 {
-  border: 1px solid black;
-  float: right;
-  background-color: #f9eca2;
-  padding: 4px 20px 5px 20px;
-}
+#title2 {background-color: #cc4545; color: white;}
+
+#title3 { background-color: #f9eca2;}
 
 p {
   padding: 20px;
   margin-right: auto;
   margin-left: auto;
 }
+
 /******** Desktop Device **********/
 @media (min-width: 992px) {
   section{
@@ -69,5 +60,8 @@ p {
   section {
     width: 100%;
   }
-}
+  .content {
+    margin: 20px;
+  }
 
+}
